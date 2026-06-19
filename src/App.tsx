@@ -1,11 +1,12 @@
-function App() {
+import { Outlet } from 'react-router-dom'
 
+function App() {
   return (
-    <>
-      <section className="w-full h-full bg-primary">
-        <h1 className="text-3xl">Oxygen</h1>
-      </section>
-    </>
+    <div className="min-h-screen bg-background text-foreground">
+      <main className="mx-auto w-full max-w-5xl px-6 py-12">
+        <Outlet />
+      </main>
+    </div>
   )
 }
 
