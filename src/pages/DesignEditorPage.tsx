@@ -1,7 +1,10 @@
+import EditorLayout from '@/components/layout/EditorLayout'
+
+
 export default function HomePage() {
   return (
-    <section className="w-full">
+    <EditorLayout>
       <h1 className="text-3xl font-semibold tracking-tight">Hello World</h1>
-    </section>
+    </EditorLayout>
   )
 }

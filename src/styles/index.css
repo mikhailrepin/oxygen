@@ -134,4 +134,8 @@
   html {
     @apply font-sans;
   }
+
+  .page {
+    @apply h-screen w-full flex flex-col;
+  }
 }
